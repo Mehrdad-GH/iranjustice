@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* create font faces */
+@font-face {
+  font-family: 'Merienda Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Merienda Regular'), url('../public/fonts/Merienda-Regular.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Merienda Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Merienda Bold'), url('../public/fonts/Merienda-Bold.woff') format('woff');
+  }
+
+body{
+  font-family: 'Merienda Regular';
+  direction: ltr;
+}
+
+.bold{
+  font-family: 'Merienda Bold';
+  direction: ltr;
+}
+/* another styles */
+.Slider-bg {
+  background: url("/images/Pattern.svg"), #1e2d48;
+  background-repeat: no-repeat;
+  --swiper-pagination-color : #d1af89 !important;
+  --swiper-pagination-bullet-inactive-color : rgb(255, 255, 255) !important;
+  --swiper-pagination-bullet-inactive-opacity : 1;
+}
+
+.swiper-pagination-bullet {
+  transition: all 150ms, background 0.4s;
+  background: white !important;
+  opacity: 1 !important;
+}
+.swiper-pagination-bullet-active {
+  border-radius: 10px !important;
+  background: #d1af89 !important;
+  width: 50px !important;
+  --swiper-pagination-bullet-width:50px;
+}
+
+span[part=bullet-active] {
+  border-radius: 10px !important;
+  background: #d1af89;
+  width: 50px !important;
+}

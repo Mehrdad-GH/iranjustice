@@ -1,0 +1,62 @@
+<template>
+  <section
+    class="bg-gradient-to-l from-slate-300 max-w-7xl mx-auto rounded-[70px] p-5 sm:p-14 flex gap-5 my-5 max-sm:flex-col-reverse overflow-hidden"
+  >
+    <div class="sm:w-1/2">
+      <h1 class="text-3xl sm:text-4xl">
+        Learn more<span class="text-gold"> about us</span>
+      </h1>
+      <h2 class="text-slate-400 text-sm w-80 mt-5">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+        
+      </h2>
+      <hr class="my-10 border-slate-400/50 w-40" />
+      <p class="mt-12 mb-10">
+        orem ipsum dolor sit amet consectetur adipisicing elit. Officia
+        deleniti, vel soluta at voluptas, voluptatibus saepe sit atque
+        reiciendis perspiciatis libero. Ipsum impedit tempora inventore illum
+        nisi sint doloremque quos?libero. Ipsum impedit tempora inventore illum
+        nisi sint doloremque quos?libero. Ipsum impedit tempora inventore illum
+        nisi sint doloremque quos?
+      </p>
+      <div class="flex gap-10 max-md:justify-center">
+        <button
+          class="bg-gold rounded-lg px-4 py-2 text-white shadow-xl shadow-gold/50"
+        >
+        Consultation request
+        </button>
+        <button class="flex items-center gap-1">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="25"
+            viewBox="0 0 24 25"
+            fill="none"
+          >
+            <path
+              opacity="0.5"
+              d="M12 22.7C17.523 22.7 22 18.223 22 12.7C22 7.17695 17.523 2.69995 12 2.69995C6.477 2.69995 2 7.17695 2 12.7C2 14.3 2.376 15.812 3.043 17.153C3.221 17.509 3.28 17.916 3.177 18.301L2.582 20.527C2.52329 20.7472 2.52351 20.979 2.58264 21.1991C2.64177 21.4192 2.75773 21.6199 2.91889 21.7811C3.08005 21.9422 3.28075 22.0582 3.50087 22.1173C3.72098 22.1764 3.95277 22.1767 4.173 22.118L6.399 21.523C6.78541 21.4257 7.19403 21.473 7.548 21.656C8.93092 22.3446 10.4551 22.702 12 22.7Z"
+              fill="#1E2D48"
+            />
+            <path
+              d="M13.22 10.147C15.073 11.286 16 11.856 16 12.7C16 13.545 15.073 14.114 13.22 15.253C11.34 16.408 10.401 16.985 9.7 16.561C9 16.137 9 14.991 9 12.7C9 10.409 9 9.26296 9.7 8.83896C10.401 8.41496 11.34 8.99196 13.22 10.147Z"
+              fill="#1E2D48"
+            />
+          </svg>
+          Introduction video
+        </button>
+      </div>
+    </div>
+    <div class="sm:w-1/3">
+      <img
+        src="/images/about.png"
+        alt=""
+        class="max-sm:translate-x-10 max-sm:-translate-y-7 scale-150"
+      />
+    </div>
+  </section>
+</template>
+
+<script setup></script>
+
+<style></style>
